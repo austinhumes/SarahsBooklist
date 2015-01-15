@@ -4,12 +4,17 @@
     android:paddingTop="@dimen/activity_vertical_margin"
     tools:context=".MainActivity">
 
+    <TextView
+        android:id="@+id/tvTest"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="ADD BOOK TEST"/>
     <EditText
         android:id="@+id/etSearch"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:hint="Search Books"
-        />
+        android:layout_below="@id/tvTest"/>
 
     <TextView
         android:id="@+id/tvBookCount"
